@@ -1,0 +1,31 @@
+<h1>Sửa</h1>
+<form action="/update" method="POST">
+  ID: <input type="text" name="id" value="<%= user.id%>" /> <br />
+  Phone :<input type="number" name="phone" value="<%= user.phone%>" /><br />
+  Password:<input
+    type="text"
+    name="password"
+    value="<%= user.password%>"
+  /><br />
+  Type Register:<input
+    type="text"
+    name="typeRegister"
+    value="<%= user.typeRegister%>"
+  /><br />
+  Token Login:<input
+    type="text"
+    name="tokenLogin"
+    value="<%= user.tokenLogin%>"
+  /><br />
+  Device ID:<input
+    type="number"
+    name="deviceID"
+    value="<%= user.deviceID%>"
+  /><br />
+  Fcm Tokens:<input
+    type="text"
+    name="fcmTokens"
+    value="<%= user.fcmTokens%>"
+  /><br />
+  <button type="submit">Sua</button>
+</form>
